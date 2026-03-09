@@ -159,8 +159,48 @@ body {
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
-  width: 80%;
+  width: 65%;
 }
 .material-symbols-outlined {
   padding-left: 26px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 584px;
+}
+.container__left {
+  background-color: #2A254B;
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container__left_text {
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.container__left_text_h {
+  font-size: 32px;
+  color: white;
+  line-height: 140%;
+}
+.container__left_text_input {
+  width: 170px;
+  height: 56px;
+  border: 0;
+  background-color: #302f54;
+  color: white;
+}
+.container__left_text-bottom {
+  width: 100%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.container__left_text-bottom_h {
+  font-size: 18px;
+  color: white;
+  line-height: 150%;
+  width: 100%;
 }

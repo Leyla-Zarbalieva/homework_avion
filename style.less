@@ -89,11 +89,55 @@ body{
             justify-content: space-between;
             margin-right: auto;
             margin-left: auto;
-            width: 80%;
+            width: 65%;
         }
     }
 }
 
 .material-symbols-outlined{
     padding-left: 26px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 584px;
+    
+    
+    &__left{
+        background-color: #2A254B;
+        width: 56%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        &_text{
+            width: 100%;
+            margin-left: 5%;
+            margin-top: 5%;
+            &_h{
+                font-size: 32px;
+                color: white;
+                line-height: 140%;
+            }
+            &_input{
+                width: 170px;
+                height: 56px;
+                border: 0;
+                background-color: #302f54 ;
+                color: white;
+            }
+        }
+        &_text-bottom{
+            width: 100%;
+            margin-left: 5%;
+            margin-bottom: 5%;
+            &_h{
+                font-size: 18px;
+                color: white;
+                line-height: 150%;  
+                width: 100%;
+            }
+        }
+    }
 }
