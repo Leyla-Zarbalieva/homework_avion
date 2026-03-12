@@ -174,29 +174,29 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.container__left_text {
+.container__left-text {
   width: 100%;
   margin-left: 5%;
   margin-top: 5%;
 }
-.container__left_text_h {
+.container__left-text-title {
   font-size: 32px;
   color: white;
   line-height: 140%;
 }
-.container__left_text_input {
+.container__left-text-input {
   width: 170px;
   height: 56px;
   border: 0;
   background-color: #302f54;
   color: white;
 }
-.container__left_text-bottom {
+.container__left-text-bottom {
   width: 100%;
   margin-left: 5%;
   margin-bottom: 5%;
 }
-.container__left_text-bottom_h {
+.container__left-text-bottom-title {
   font-size: 18px;
   color: white;
   line-height: 150%;
