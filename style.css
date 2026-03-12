@@ -217,3 +217,7 @@ body {
 .material-symbols-outlined {
   padding: 0;
 }
+.listings__product {
+  display: flex;
+  justify-content: space-between;
+}
